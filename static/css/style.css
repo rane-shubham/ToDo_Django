@@ -1,18 +1,22 @@
 *{
     margin: 0 auto;
+    color: #fff;
+}
+body{
+    background-color: #303030;
 }
 h1{
     color: #ffc400;
 }
 .modal-content{
-    background-color: #ffc400;
+    background-color: #303030;
     border-radius: 2rem !important;
     padding: 20px;
 }
 .title-input{
     width: 100%;
     padding: 5px;
-    color: #666666;
+    color: #ffc400;
     font-size: 1.8em;
     margin-bottom: 10px;
     background-color: #00000000;
@@ -22,8 +26,9 @@ h1{
 .body-input{
     resize: none;
     background-color: #00000000;
+    color: #fff;
     width: 100%;
-    height: 500px;
+    height: 480px;
     padding: 5px;
     margin-bottom: 10px;
     font-size: 1.2em;
@@ -31,4 +36,30 @@ h1{
 }
 form .btn{
     width: 100px;
+}
+
+.todo-card{
+    border: 1px solid #ececec;
+    border-radius: 1.25rem;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    padding: 10px 20px;
+    margin: 10px 0
+}
+
+.todo-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #696969;
+}
+
+.delete{
+    position: absolute;
+    margin: 10px 20px;
+    top: 0;
+    right: 0;
+}
+
+.delete:hover{
+    transform: scale(1.2, 1.2);
 }
